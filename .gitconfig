@@ -1,0 +1,14 @@
+# These make it so that the contents of the config file are set to defaults on commit,
+# but the empty file does not override the config when merging
+# These are used in .gitattributes
+# To make this file take effect, run:
+# $ git config --local include.path ../.gitconfig
+#
+# https://stackoverflow.com/questions/17483389/how-do-i-place-a-dummy-file-in-a-git-repo
+[filter "emptyConfig"]
+	clean  = cat .sporcle_config_empty
+	smudge = cat
+
+[merge "keepMine"]
+    name = always keep mine during merge
+    driver = /bin/true %O %A %B
