@@ -1,7 +1,7 @@
 # What is SporcleBot?
 SporcleBot is a [twitch.tv](http://twitch.tv) chat bot that allows a stream's chat to play a [Sporcle](https://www.sporcle.com/) quiz together. It does this by submitting every message in the chat as an answer to the currently running Sporcle quiz.
 
-[Here is an example of SporcleBot in action.](https://www.twitch.tv/videos/302353313)
+### [Here is an example of SporcleBot in action.](https://www.twitch.tv/videos/302353313)
 
 # How to use it
 1. In order to be able to run SporcleBot, you will need to follow the setup instructions below.
